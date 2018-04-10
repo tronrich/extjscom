@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ywwl</groupId>
+  <artifactId>extjscom</artifactId>
+  <version>0.0.1</version>
+  <name>extjscom</name>
+  <packaging>jar</packaging>
+
+  <properties>
+        <java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<mybatis.starter.version>1.3.0</mybatis.starter.version>
+		<mysql.connector.version>6.0.6</mysql.connector.version>
+		<mssql.jdbc.version>6.1.0.jre7</mssql.jdbc.version>
+		<guava.version>21.0</guava.version>
+		<sevenzipjbinding.version>9.20-2.00beta</sevenzipjbinding.version>
+  </properties>
+  
+  <distributionManagement>
+    <repository>
+      <id>extjscom</id>
+      <url>file://${project.build.directory}/repository/</url>
+    </repository>
+  </distributionManagement>
+
+  <repositories>
+        <repository>
+            <id>basecom</id>
+            <url>https://raw.githubusercontent.com/tronrich/basecom/master/repository</url>
+        </repository>  
+  </repositories>
+  
+  <dependencies>
+	<dependency>
+		<groupId>com.ywwl</groupId>
+		<artifactId>basecom</artifactId>
+		<version>0.0.1</version>
+	</dependency>
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.1.0</version>
+		<scope>provided</scope>
+	</dependency>
+  </dependencies>
+  
+  <build>
+  </build>
+  
+</project>
