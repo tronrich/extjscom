@@ -32,6 +32,11 @@
   
   <dependencies>
 	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-jdbc</artifactId>
+		<version>4.3.3.RELEASE</version>
+	</dependency>
+	<dependency>
 		<groupId>com.ywwl</groupId>
 		<artifactId>basecom</artifactId>
 		<version>0.0.1</version>
