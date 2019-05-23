@@ -28,14 +28,20 @@
             <id>basecom</id>
             <url>https://raw.githubusercontent.com/tronrich/basecom/master/repository</url>
         </repository>  
+         <repository>
+            <id>tableutils</id>
+            <url>https://raw.githubusercontent.com/tronrich/tableutils/master/repository</url>
+        </repository>      
   </repositories>
   
   <dependencies>
+    <!--
 	<dependency>
 		<groupId>com.ywwl</groupId>
 		<artifactId>basecom</artifactId>
 		<version>0.0.1</version>
 	</dependency>
+	-->
 	<dependency>
 		<groupId>com.ywwl</groupId>
 		<artifactId>tableutils</artifactId>
