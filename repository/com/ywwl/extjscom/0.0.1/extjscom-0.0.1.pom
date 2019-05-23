@@ -31,10 +31,14 @@
   </repositories>
   
   <dependencies>
-
 	<dependency>
 		<groupId>com.ywwl</groupId>
 		<artifactId>basecom</artifactId>
+		<version>0.0.1</version>
+	</dependency>
+	<dependency>
+		<groupId>com.ywwl</groupId>
+		<artifactId>tableutils</artifactId>
 		<version>0.0.1</version>
 	</dependency>
 	<dependency>
